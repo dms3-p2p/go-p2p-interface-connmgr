@@ -3,9 +3,9 @@ package ifconnmgr
 import (
 	"context"
 
-	inet "github.com/libp2p/go-libp2p-net"
-	peer "github.com/libp2p/go-libp2p-peer"
-	ma "github.com/multiformats/go-multiaddr"
+	inet "github.com/dms3-p2p/go-p2p-net"
+	peer "github.com/dms3-p2p/go-p2p-peer"
+	ma "github.com/dms3-mft/go-multiaddr"
 )
 
 type NullConnMgr struct{}
